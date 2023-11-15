@@ -7,3 +7,7 @@ test(`The string "test" will be reversed into "tset"`, () => {
 test(`The string "My name" will be reversed into "eman yM"`, () => {
   expect(reverseString("My name")).toMatch(/^eman yM$/);
 });
+
+test(`If no argument given return null`, () => {
+  expect(reverseString()).toBeNull();
+});
