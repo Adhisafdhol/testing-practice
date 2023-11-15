@@ -11,3 +11,7 @@ test(`1 + "lol" returns error`, () => {
 test(`"lol" + 2 returns error`, () => {
   expect(calculator.add(1, "lol")).toMatch(/^ERROR!$/);
 });
+
+test("0.1 + 0.2 is equal to 0.3", () => {
+  expect(calculator.add(0.1, 0.2)).toBeCloseTo(0.3);
+});
