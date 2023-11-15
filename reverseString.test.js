@@ -11,3 +11,7 @@ test(`The string "My name" will be reversed into "eman yM"`, () => {
 test(`If no argument given return null`, () => {
   expect(reverseString()).toBeNull();
 });
+
+test(`If an empty string is given return empty string`, () => {
+  expect(reverseString("")).toMatch("");
+});
