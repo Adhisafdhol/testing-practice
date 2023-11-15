@@ -44,6 +44,14 @@ test(`"lol" * 2 returns error`, () => {
   expect(calculator.multiply(1, "lol")).toMatch(/^ERROR!$/);
 });
 
+test("0 * 0 is equal to 0", () => {
+  expect(calculator.multiply(0, 0)).toBe(0);
+});
+
+test("9 * 0 is equal to 0", () => {
+  expect(calculator.multiply(9, 0)).toBe(0);
+});
+
 test("0.9 * -0.2 is equal to 0.18", () => {
   expect(calculator.multiply(0.9, -0.2)).toBeCloseTo(-0.18);
 });
