@@ -6,7 +6,7 @@ function caesarCipher(string, shift) {
 
 function getShiftIndex(index, shift, arr) {
   return index + shift > arr.length - 1
-    ? index + shift - (arr.length - 1)
+    ? index + shift - arr.length
     : index + shift;
 }
 
