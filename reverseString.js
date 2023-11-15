@@ -1,4 +1,7 @@
-function reverseString(string) {
+function reverseString(string = null) {
+  if (string === null) {
+    return string;
+  }
   const arrString = string.split("");
   const newArr = [];
 
