@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aadheuss/testing-practice.git"
+    "url": "git+https://github.com/Adhisafdhol/testing-practice.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aadheuss/testing-practice/issues"
+    "url": "https://github.com/Adhisafdhol/testing-practice/issues"
   },
-  "homepage": "https://github.com/Aadheuss/testing-practice#readme",
+  "homepage": "https://github.com/Adhisafdhol/testing-practice#readme",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.3",
